@@ -1,5 +1,5 @@
 {
-  "name": "brewometer-nodejs",
+  "name": "brewometer",
   "version": "1.0.0",
   "description": "Nodejs Command Line Utility to read Brewometers",
   "main": "index.js",
