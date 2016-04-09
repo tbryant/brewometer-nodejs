@@ -1,30 +1,33 @@
 {
-  "name": "brewometer",
-  "version": "1.0.0",
-  "description": "Nodejs Command Line Utility to read Brewometers",
-  "main": "index.js",
-  "dependencies": {
-    "bleacon": "^0.4.0",
-    "commander": "^2.9.0",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tbryant/brewometer-nodejs.git"
-  },
-  "keywords": [
-    "Brewometer",
-    "node",
-    "nodejs"
-  ],
-  "author": "Tyler Bryant",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tbryant/brewometer-nodejs/issues"
-  },
-  "homepage": "https://github.com/tbryant/brewometer-nodejs#readme"
+    "name": "brewometer",
+    "version": "1.0.0",
+    "description": "Nodejs Command Line Utility to read Brewometers",
+    "main": "index.js",
+    "dependencies": {
+        "bleacon": "^0.4.0",
+        "commander": "^2.9.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tbryant/brewometer-nodejs.git"
+    },
+    "bin": {
+        "brewometer": "brewometer-nodejs.js"
+    },
+    "keywords": [
+        "Brewometer",
+        "node",
+        "nodejs"
+    ],
+    "author": "Tyler Bryant",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tbryant/brewometer-nodejs/issues"
+    },
+    "homepage": "https://github.com/tbryant/brewometer-nodejs#readme"
 }
